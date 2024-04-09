@@ -2,60 +2,27 @@
 
 <p align="center">
     <b>Symbiot: Your Best Organizational <i>assistant!</i></b>. <br />
-    An efficient, customizable, and enterprise-ready document assistant solution.
+    An efficient, customizable, and enterprise assistant solution.
 </p>
 
-A full-stack application that enables you to turn any document, resource, or piece of content into context that any LLM can use as references during chatting. This application allows you to pick and choose which LLM or Database you want to use as well as supporting multi-user management and permissions.
+Meet Symbiot: Your go-to helper for organization! It's a smart, flexible tool designed for businesses, making document handling a breeze. You can turn any document into something a language model like ChatGPT can chat about, whether it's for personal use or for your team. You get to choose the language model or database you prefer, and it even lets multiple users work together with different access levels.
 
 ### Product Overview
 
-Symbiot is a full-stack application where you can use commercial off-the-shelf LLMs or popular open source LLMs and vectorDB solutions to build a private ChatGPT with no compromises that you can run locally as well as host remotely and be able to chat intelligently with any documents you provide it.
+Symbiot is a comprehensive tool that lets you use either ready-to-use commercial language models or the popular free ones, along with database options, to create your own private, smart chatbot. This bot can understand and talk about any document you feed it, whether you're working on it locally or hosting it online. It organizes your documents into `workspaces`, making it easy to manage different topics or projects without mixing them up.
 
-Symbiot divides your documents into objects called `workspaces`. A Workspace functions a lot like a thread, but with the addition of containerization of your documents. Workspaces can share documents, but they do not talk to each other so you can keep your context for each workspace clean.
+### Cool Stuff You Can Do with Symbiot
 
-Some cool features of Symbiot
+- Have a chatbot on your website with a customizable chat widget.
+- Support for various document formats like PDF, Word, and more.
+- Easy document management through a user-friendly interface.
+- Choose between having a continuous chat or just asking questions directly.
+- Reference documents directly in chats.
+- Ready for cloud use.
+- Choose your preferred language model.
+- Save costs effectively when handling large documents—up to 90% cheaper than other options.
+- Developer-friendly with a full API for custom setups.
 
-- **Multi-user instance support and permissioning**
-- **_New_** [Custom Embeddable Chat widget for your website](./embed/README.md)
-- Multiple document type support (PDF, TXT, DOCX, etc)
-- Manage documents in your Database from a simple UI
-- Two chat modes `conversation` and `query`. Conversation retains previous questions and amendments. Query is simple QA against your documents
-- In-chat citations
-- 100% Cloud deployment ready.
-- "Bring your own LLM" model.
-- Extremely efficient cost-saving measures for managing very large documents. You'll never pay to embed a massive document or transcript more than once. 90% more cost effective than other document chatbot solutions.
-- Full Developer API for custom integrations!
+### Compatibility:
 
-### Supported LLMs, Embedders, and Databases
-
-**Supported LLMs:**
-
-- [Any open-source llama.cpp compatible model](/server/storage/models/README.md#text-generation-llm-selection)
-- [OpenAI](https://openai.com)
-- [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-- [Anthropic ClaudeV2](https://www.anthropic.com/)
-- [Google Gemini Pro](https://ai.google.dev/)
-- [Ollama (chat models)](https://ollama.ai/)
-- [LM Studio (all models)](https://lmstudio.ai)
-- [LocalAi (all models)](https://localai.io/)
-- [Together AI (chat models)](https://www.together.ai/)
-- [Mistral](https://mistral.ai/)
-
-**Supported Embedding models:**
-
-- [Symbiot Native Embedder](/server/storage/models/README.md) (default)
-- [OpenAI](https://openai.com)
-- [Azure OpenAI](https://azure.microsoft.com/en-us/products/ai-services/openai-service)
-- [LM Studio (all)](https://lmstudio.ai)
-- [LocalAi (all)](https://localai.io/)
-
-**Supported Databases:**
-
-- [LanceDB](https://github.com/lancedb/lancedb) (default)
-- [Astra DB](https://www.datastax.com/products/datastax-astra)
-- [Pinecone](https://pinecone.io)
-- [Chroma](https://trychroma.com)
-- [Weaviate](https://weaviate.io)
-- [QDrant](https://qdrant.tech)
-- [Milvus](https://milvus.io)
-- [Zilliz](https://zilliz.com)
+Symbiot works with many language models, including OpenAI, Google's models, and others. It also supports a range of databases for storing your documents, ensuring flexibility and efficiency in how you handle your data.
